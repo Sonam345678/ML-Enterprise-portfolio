@@ -91,15 +91,24 @@ def main():
         st.write(f"- Selection Rate (Group 1 / Male): **{rate1_deb:.2%}**")
 
     st.subheader("Selection Rate Comparison")
-    fig, ax = plt.subplots(figsize=(7, 3))
-    categories = ['Baseline Female', 'Baseline Male', 'Debiased Female', 'Debiased Male']
+    
+    # Compact figure size with explicit width control in Streamlit
+    fig, ax = plt.subplots(figsize=(6, 2.8))
+    categories = ['Base Female', 'Base Male', 'Fair Female', 'Fair Male']
     rates = [rate0_base, rate1_base, rate0_deb, rate1_deb]
+    
     sns.barplot(x=categories, y=rates, palette=['#ff9999', '#66b3ff', '#99ff99', '#339966'], ax=ax)
-    ax.set_ylabel("Selection Rate")
+    ax.set_ylabel("Selection Rate", fontsize=8)
     ax.set_ylim(0, 1.0)
-    ax.axhline(0.80, color='red', linestyle='--', label='80% Fairness Rule Target')
-    ax.legend()
-    st.pyplot(fig)
+    ax.tick_params(axis='both', labelsize=8)
+    ax.axhline(0.80, color='red', linestyle='--', label='80% Target')
+    ax.legend(fontsize=8, loc='upper right')
+    plt.tight_layout()
+    
+    # Graph size restrict karne ke liye columns use kiye hain
+    graph_col, _ = st.columns([2, 1])
+    with graph_col:
+        st.pyplot(fig, use_container_width=True)
 
 if __name__ == "__main__":
     main()
