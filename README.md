@@ -39,3 +39,24 @@ This Data Science research project audits algorithmic bias in automated resume s
 ```bash
 pip install -r requirements.txt
 python -m streamlit run main.py
+
+
+
+
+
+
+
+# 📊 ML Enterprise Portfolio
+
+## 🚀 Enterprise Customer Churn & Revenue-at-Risk Engine
+
+An executive-grade predictive analytics platform engineered to model enterprise customer churn probabilities, quantify projected annual revenue loss ($MRR \times P(Churn)$), and provide interactive retention strategy simulation.
+
+### 🌟 Technical Highlights
+* **Predictive Analytics:** XGBoost Gradient Boosting Classifier fine-tuned on customer behavioral metrics.
+* **Explainable AI (XAI):** SHAP (Shapley Additive exPlanations) TreeExplainer integration for dynamic model interpretability.
+* **Financial Risk Quantification:** Revenue-at-risk scoring engine converting probability predictions into financial metrics ($).
+* **Executive What-If Simulator:** Interactive Streamlit framework enabling real-time testing of customer retention interventions.
+
+### 🛠️ Tech Stack
+`Python` | `XGBoost` | `SHAP (TreeExplainer)` | `Streamlit` | `Scikit-Learn` | `Pandas`
