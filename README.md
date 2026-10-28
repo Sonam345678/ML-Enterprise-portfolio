@@ -1,4 +1,8 @@
 # 📊 Executive Customer Retention & Machine Learning Portfolio
+🚀 **Live App Link:** [Enterprise Churn Engine](https://ml-enterprise-portfolio-etamcedszv2dppnmmehi6r.streamlit.app)
+### 3. Algorithmic Bias Mitigation in HR Screening (.py)
+* **Tech Stack:** Python, Random Forest, Fair Reweighing Algorithm, Disparate Impact Metrics
+* **Key Features:** Auditing gender bias in hiring algorithms and evaluating pre-processing mitigation techniques.
 
 Welcome to my Data Science and Machine Learning enterprise portfolio! This repository showcases end-to-end predictive analytics models, interactive dashboards, and decision-making pipelines.
 
