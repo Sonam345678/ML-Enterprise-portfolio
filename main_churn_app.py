@@ -13,16 +13,53 @@ st.set_page_config(
 )
 
 
+# Self-contained Data Generator
+def create_churn_dataset(n_samples=1500, random_state=42):
+    np.random.seed(random_state)
+    account_ids = [f"ACC-{1000 + i}" for i in range(n_samples)]
+    tenure_months = np.random.randint(1, 60, size=n_samples)
+    monthly_recurring_revenue = np.round(
+        np.random.uniform(500, 15000, size=n_samples), 2
+    )
+    contract_type = np.random.choice(
+        ["Month-to-Month", "One-Year", "Two-Year"],
+        size=n_samples,
+        p=[0.5, 0.3, 0.2],
+    )
+    support_tickets_30d = np.random.poisson(lam=2.5, size=n_samples)
+    login_frequency_drop = np.random.uniform(-0.8, 0.4, size=n_samples)
+    nps_score = np.random.randint(1, 11, size=n_samples)
+    feature_utilization_score = np.random.uniform(0.1, 1.0, size=n_samples)
+
+    logit = (
+        -1.2
+        - (tenure_months * 0.04)
+        + (support_tickets_30d * 0.45)
+        - (login_frequency_drop * 1.8)
+        - (nps_score * 0.25)
+        - (feature_utilization_score * 2.1)
+        + np.where(contract_type == "Month-to-Month", 0.8, -0.5)
+    )
+
+    churn_prob = 1 / (1 + np.exp(-logit))
+    churned = (churn_prob > np.percentile(churn_prob, 75)).astype(int)
+
+    return pd.DataFrame({
+        "Account_ID": account_ids,
+        "Tenure_Months": tenure_months,
+        "MRR_USD": monthly_recurring_revenue,
+        "Contract_Type": contract_type,
+        "Support_Tickets_30D": support_tickets_30d,
+        "Login_Drop_Ratio": login_frequency_drop,
+        "NPS_Score": nps_score,
+        "Feature_Utilization": feature_utilization_score,
+        "Churn": churned,
+    })
+
+
 @st.cache_data
 def load_data():
-    try:
-        df = pd.read_csv("enterprise_churn_data.csv")
-    except FileNotFoundError:
-        import generate_data
-
-        generate_data.generate_enterprise_churn_data()
-        df = pd.read_csv("enterprise_churn_data.csv")
-    return df
+    return create_churn_dataset()
 
 
 @st.cache_resource
