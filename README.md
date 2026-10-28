@@ -1,6 +1,9 @@
 # 📊 Executive Customer Retention & Machine Learning Portfolio
 🚀 **Live App Link:** [Enterprise Churn Engine](https://ml-enterprise-portfolio-etamcedszv2dppnmmehi6r.streamlit.app)
-### 3. Algorithmic Bias Mitigation in HR Screening (.py)
+### 2 Algorithmic Bias Mitigation in HR Screening (.py)
+## 2. 🔬 Research Methodology: Auditing & Mitigating Algorithmic Bias
+* 🔗 **Live App:** [Algorithmic Bias Mitigation Dashboard](AAPKA_COPIED_STREAMLIT_URL)
+* **Tech Stack:** Python, Random Forest, Fair Reweighing Algorithm, Disparate Impact Metrics
 
 ---
 
