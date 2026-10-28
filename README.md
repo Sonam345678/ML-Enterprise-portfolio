@@ -1,6 +1,14 @@
 # 📊 Executive Customer Retention & Machine Learning Portfolio
 🚀 **Live App Link:** [Enterprise Churn Engine](https://ml-enterprise-portfolio-etamcedszv2dppnmmehi6r.streamlit.app)
 ### 3. Algorithmic Bias Mitigation in HR Screening (.py)
+
+---
+
+## 3. ⚡ Instamart Real-Time Q-Commerce Operations Engine
+A dynamic real-time operational dashboard monitoring 10-minute delivery SLAs, peak demand surges, and dispatch latency across Mumbai delivery zones.
+
+* 🔗 **Live App:** [Instamart Q-Commerce Dashboard](YOUR_COPIED_STREAMLIT_URL_HERE)
+* **Tech Stack:** Python, Streamlit, Matplotlib, Seaborn, Pandas
 * **Tech Stack:** Python, Random Forest, Fair Reweighing Algorithm, Disparate Impact Metrics
 * **Key Features:** Auditing gender bias in hiring algorithms and evaluating pre-processing mitigation techniques.
 
