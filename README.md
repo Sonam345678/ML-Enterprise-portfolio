@@ -27,6 +27,51 @@ Welcome to my Data Science and Machine Learning enterprise portfolio! This repos
 
 ---
 
+# 📊 ML Enterprise, Data Analytics & Master's Research Portfolio
+
+Executive-grade predictive analytics platforms, real-time operational BI dashboards, and AI ethics research showcases.
+
+---
+
+## 1. 📗 Sales & Profit Analysis Executive Dashboard
+An executive reporting dashboard styled after corporate Excel/Power BI suites. Features real-time slice-and-dice data filtering, monthly sales vs profit trend dynamics, category profit shares, and regional financial summaries.
+
+* 🔗 **Live App:** [Sales & Profit Executive Dashboard](https://ml-enterprise-portfolio-8tmqmeeqko3grbqekrfvtc.streamlit.app)
+* **Tech Stack:** Python, Streamlit, Matplotlib, Seaborn, Pandas
+
+---
+
+## 2. ⚡ Instamart Real-Time Q-Commerce Operations Engine
+A dynamic operational dashboard monitoring 10-minute quick-commerce delivery SLAs, peak demand volume spikes, and weather/traffic dispatch latency across Mumbai delivery zones.
+
+* 🔗 **Live App:** [Instamart Operations Engine](https://ml-enterprise-portfolio-etamcedszv2dppnmmehi6r.streamlit.app)
+* **Tech Stack:** Python, Streamlit, Matplotlib, Seaborn, Dynamic Simulation Logic
+
+---
+
+## 3. 🚀 Enterprise Customer Churn & Revenue-at-Risk Engine
+An executive analytics engine engineered to predict subscription churn probabilities, quantify annual revenue loss ($MRR \times P(Churn)$), and provide real-time retention strategy simulations using Explainable AI.
+
+* 🔗 **Live App:** [Enterprise Churn Engine](https://ml-enterprise-portfolio-etamcedszv2dppnmmehi6r.streamlit.app)
+* **Tech Stack:** Python, XGBoost, SHAP, Scikit-Learn, Streamlit
+
+---
+
+## 4. 🔬 Research Methodology: Auditing & Mitigating Algorithmic Bias
+An M.Sc. Data Science research project evaluating Fair Reweighing techniques to eliminate demographic gender bias in automated HR screening algorithms without sacrificing model accuracy (80% Disparate Impact rule threshold).
+
+* 🔗 **Live App:** [Algorithmic Bias Mitigation Dashboard](https://ml-enterprise-portfolio-etamcedszv2dppnmmehi6r.streamlit.app)
+* **Tech Stack:** Python, Random Forest, Fair Reweighing Algorithm, Disparate Impact Metrics
+
+---
+
+## 🛠️ Environment Setup & Local Execution
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Sonam345678/ML-Enterprise-portfolio.git](https://github.com/Sonam345678/ML-Enterprise-portfolio.git)
+   cd ML-Enterprise-portfolio
+
 ## 🚀 Projects Included
 
 ### 1. Executive Customer Retention & Revenue Risk Dashboard (`app.py`)
