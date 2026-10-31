@@ -15,6 +15,14 @@ A dynamic real-time operational dashboard monitoring 10-minute delivery SLAs, pe
 * **Tech Stack:** Python, Random Forest, Fair Reweighing Algorithm, Disparate Impact Metrics
 * **Key Features:** Auditing gender bias in hiring algorithms and evaluating pre-processing mitigation techniques.
 
+* ---
+
+## 4. 📊 Enterprise Retail & Supply Chain Analytics Suite
+An executive-level BI and data analytics engine featuring RFM Customer Segmentation, Weekly Demand Forecasting, and Price Elasticity What-If Simulators.
+
+* 🔗 **Live App:** [Enterprise Retail Analytics Dashboard](AAPKA_DEPLOYED_STREAMLIT_URL)
+* **Tech Stack:** Python, Streamlit, RFM Segmentation, Time-Series Moving Average, Seaborn, Pandas
+
 Welcome to my Data Science and Machine Learning enterprise portfolio! This repository showcases end-to-end predictive analytics models, interactive dashboards, and decision-making pipelines.
 
 ---
