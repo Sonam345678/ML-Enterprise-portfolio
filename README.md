@@ -103,6 +103,59 @@ This Data Science research project audits algorithmic bias in automated resume s
 - **Debiasing Method:** Applies sample re-weighing to meet the 80% Fairness Rule Target.
 - **Interactive Dashboard:** Built using Streamlit and Seaborn for real-time fairness vs. accuracy trade-off visualization.
 
+
+# 📊 Executive Data Science, Retail BI & M.Sc. Research Portfolio
+
+Welcome to my enterprise data analytics and machine learning portfolio. Below are live Streamlit applications showcasing interactive retail reporting, predictive modeling, quick-commerce operations, and AI ethics research.
+
+---
+
+## 1. 🏬 Custom Retail Outlet Sales & Profit Analytics Engine
+An executive financial reporting engine built around custom retail schemas (State, Outlet, Product, Freight %, Landing Price, Gross Profit). Features chronological Financial Year ordering (April to March) and dynamic month-to-outlet profit drill-downs.
+
+* 🔗 **Live App:** [Retail Outlet Analytics Engine](https://ml-enterprise-portfolio-sir-custom-retail-dashboard.streamlit.app) *(Update with your deployed URL)*
+* **Tech Stack:** Python, Streamlit, Plotly Express, Pandas, Financial Year Aggregation Logic
+
+---
+
+## 2. 📗 Sales & Profit Analysis Executive Dashboard
+An executive reporting dashboard styled after corporate Excel/Power BI suites. Features real-time slice-and-dice data filtering, monthly sales vs profit trend dynamics, category profit shares, and regional financial summaries.
+
+* 🔗 **Live App:** [Sales & Profit Executive Dashboard](https://ml-enterprise-portfolio-8tmqmeeqko3grbqekrfvtc.streamlit.app)
+* **Tech Stack:** Python, Streamlit, Matplotlib, Seaborn, Pandas
+
+---
+
+## 3. 🚀 Enterprise Customer Churn & Revenue-at-Risk Engine
+An executive analytics platform engineered to predict customer churn, quantify revenue loss, and model retention strategies using SHAP Explainable AI.
+
+* 🔗 **Live App:** [Enterprise Churn Engine](https://ml-enterprise-portfolio-etamcedszv2dppnmmehi6r.streamlit.app)
+* **Tech Stack:** Python, XGBoost, SHAP, Scikit-Learn, Streamlit
+
+---
+
+## 4. 🔬 Research Methodology: Auditing & Mitigating Algorithmic Bias
+An M.Sc. Data Science research project evaluating Fair Reweighing techniques to eliminate demographic gender bias in automated HR screening without accuracy loss.
+
+* 🔗 **Live App:** [Algorithmic Bias Mitigation Dashboard](https://ml-enterprise-portfolio-research-bias-mitigation-app.streamlit.app)
+* **Tech Stack:** Python, Random Forest, Fair Reweighing Algorithm, Disparate Impact Metrics
+
+---
+
+## 5. ⚡ Instamart Real-Time Q-Commerce Operations Engine
+A dynamic operational dashboard monitoring 10-minute quick-commerce delivery SLAs, peak volume surges, and dispatch latency across Mumbai delivery zones.
+
+* 🔗 **Live App:** [Instamart Operations Engine](https://ml-enterprise-portfolio-etamcedszv2dppnmmehi6r.streamlit.app)
+* **Tech Stack:** Python, Streamlit, Matplotlib, Seaborn, Dynamic Simulation Logic
+
+---
+
+## 🛠️ Environment Setup & Local Execution
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Sonam345678/ML-Enterprise-portfolio.git](https://github.com/Sonam345678/ML-Enterprise-portfolio.git)
+   cd ML-Enterprise-portfolio
 ## 🚀 How to Run Locally
 ```bash
 pip install -r requirements.txt
